@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="select.css">
+</head>
+
+<body>
+    <div id="loading-screen">
+        <h1>Loading...</h1>
+    </div>
+    <div id="q-cont">
+        <div class="slide" id="slide1">
+            <div class="question">
+                시간
+            </div>
+            <div class="options">
+                <span class="op" for="q1op1">아침</span>
+                <span class="op op2" for="q1op2">점심</span>
+                <span class="op" for="q1op3">저녁</span>
+                <span class="op op2" for="q1op4">간식</span>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="question">
+                나라
+            </div>
+            <div class="options">
+                <span class="op" for="q2op1">한식</span>
+                <span class="op op2" for="q2op2">일식</span>
+                <span class="op" for="q2op3">중식</span>
+                <span class="op op2" for="q2op4">양식</span>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="question">
+                목적
+            </div>
+            <div class="options">
+                <span class="op" for="q3op1">식사</span>
+                <span class="op op2" for="q3op2">데이트</span>
+                <span class="op" for="q3op3">대접</span>
+                <span class="op op2" for="q3op4">이색 체험</span>
+            </div>
+        </div>
+        <div class="slide" id="slide4">
+            <div class="question">
+                음식 스타일
+            </div>
+            <div class="options">
+                <span class="op" for="q3op1">고기</span>
+                <span class="op op2" for="q3op2">해산물</span>
+                <span class="op" for="q3op3">채식</span>
+                <span class="op op2" for="q3op4">퓨전</span>
+            </div>
+        </div>
+        <div class="slide" id="slide5">
+            <div class="question">
+                추가 요구사항
+            </div>
+            <div class="options">
+                <textarea class="additional-requirements" placeholder="인원, 분위기, 가격대 등"></textarea>
+                <div id="btn-wrapper">
+                    <span class="op" id="send-btn">전송</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="slide">
+            <div id="done">
+                DONE!
+            </div>
+            <div>
+                잠시만 기다려주세요
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="select.js"></script>
+
+
+</body>
+
+</html>
